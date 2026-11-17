@@ -1,0 +1,18 @@
+$ flutter analyze
+Analyzing practica-integracion-pruebas-flutter...
+
+No issues found! (ran in 1.4s)
+
+------------------------------------------------------------------------
+
+$ flutter test
+00:01 +0: loading test/unit/tarea_model_test.dart
+00:01 +1: test/unit/tarea_model_test.dart: Pruebas Unitarias - Modelo Tarea y Validadores validarTitulo retorna error si el título es vacío o solo espacios (INC-001)
+00:01 +2: test/unit/tarea_model_test.dart: Pruebas Unitarias - Modelo Tarea y Validadores validarTitulo retorna error si tiene menos de 3 caracteres
+00:01 +3: test/unit/tarea_model_test.dart: Pruebas Unitarias - Modelo Tarea y Validadores validarTitulo retorna null cuando el título es válido
+00:01 +4: test/unit/tarea_model_test.dart: Pruebas Unitarias - Modelo Tarea y Validadores Tarea.fromMap mapea correctamente y tolera campos nulos (INC-002)
+00:01 +5: test/unit/tarea_model_test.dart: Pruebas Unitarias - Modelo Tarea y Validadores Tarea.toMap serializa correctamente los datos limpios
+00:02 +6: test/widget/lista_y_formulario_widget_test.dart: Pruebas de Widget con FakeTareasRepository Muestra mensaje de estado vacío cuando no hay tareas
+00:02 +7: test/widget/lista_y_formulario_widget_test.dart: Pruebas de Widget con FakeTareasRepository Muestra la lista de tareas cuando el repositorio contiene datos
+00:02 +8: test/widget/lista_y_formulario_widget_test.dart: Pruebas de Widget con FakeTareasRepository Formulario muestra error de validación si se intenta guardar vacío
+00:02 +8: All tests passed!
